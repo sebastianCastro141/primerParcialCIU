@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="estiloIndex.css">
+    <link rel="stylesheet" href="contacto.css">
+    <!---------------------------------Fonts------------------------------------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <!---------------------------------Bootstrap------------------------------------------>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="logoTituloNav" class="logoTituloNav darkHeader">
+        <button id="cambiarModo"><span>cambiar modo</span></button>
+        <div class="logoTitulo">
+            <a href="index.html"><img src="logoDeLaPagV2.png" class="logo"></a>
+            <div class="contenedorDeTituloCompleto">
+                <div class="contenedorTitulo1">
+                    <h1 class="titulo">La</h1>
+                </div>
+                <div class="contenedorTitulo2">
+                    <h1 class="titulo">Comarca</h1>
+                </div>
+            </div>
+
+        </div>
+
+        <ul id="navBar" class="navBar darkNav">
+            <li><a href="index.html #destacados"> <span class="textoNav">Destacados</span> </a></li>
+            <li><a href="menuInteractivo.html"><span class="textoNav">Menu</span></a></li>
+            <li><a href="contacto.html"><span class="textoNav">Contacto</span></a></li>
+        </ul>
+    </header>
+    <main>
+        <div id="contendorForm">
+            <h3 id="titulo">Contactanos</h3>
+            <form class="form">
+
+                <label for="exampleFormControlInput1">Nombre</label>
+                <input type="tex" class="form-control" id="nombre" placeholder="Nombre completo">
+                <label for="exampleFormControlInput1">Email</label>
+                <input type="text" class="form-control" id="email" placeholder="name@example.com">
+                <label for="exampleFormControlInput1">Asunto</label>
+                <input type="email" class="form-control" id="asunto" placeholder="Asunto">
+                <label for="exampleFormControlTextarea1">Comentario</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                
+
+            </form>
+            <button id="enviar" class="btn btn-primary btn-outline-dark" type="submit">Enviar</button>
+        </div>
+    </main>
+    <footer id="footer" class="footerCompleto darkFooter">
+        <h3 class="tituloDeDescripcion">Encontranos En</h3>
+        <div class="imagenTextoFooter">
+            <div class="imagenDeFooter"></div>
+            <div id="textoFooter">
+                <h4 class="tituloDeDescripcion">Contacto</h4>
+                <p class="textoDeFooter">(+54) 11-7498-0632</p>
+                <p class="textoDeFooter">laComarca@gmail.com</p>
+                <p class="textoDeFooter">Griveo 4098, Andalucia</p>
+                <p class="textoDeFooter">HORARIO:</p>
+                <p class="textoDeFooter">Lunes a Domingo(Martes Cerrado)</p>
+                <p class="textoDeFooter">12 a 15:30 - 20 a 24hs</p>
+            </div>
+        </div>
+    </footer>
+    <script src="scriptContactos.js"></script>
+</body>
+
+</html>

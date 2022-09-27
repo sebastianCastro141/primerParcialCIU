@@ -1,0 +1,449 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+html {
+  background-color: #ebd8d0;
+}
+
+/***************************************************DARK***********************/
+.darkHeader{
+  background-color:#97C8EB ;
+}
+.darkNav{
+  background-color:  #093A3E; /*#64E9EE*/
+  margin-top: 2vw;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+.darkNav li{
+  padding-right: 2vw;
+  padding-left: 2vw;
+  list-style: none;
+}
+.darkNav li:hover{
+  background-color:#97C8EB ;
+}
+
+.darkMain{
+  background-color: #001011;
+  padding: 3vw;
+}
+.dark1{
+  text-align: center;
+  background-color: #97C8EB;
+}
+.darkSeccion1{
+  background-color: #093A3E;
+  padding: 2vw;
+  margin: 2vw;
+}
+
+.masPlatosDark{
+  background-color:#093A3E;
+  padding: 2vw;
+  margin: 8vw;
+}
+
+.darkFooter{
+  text-align: center;
+  background-color:  #97C8EB;
+  margin-bottom: 0;
+}
+
+
+/*****************NAV******#001011********/
+
+/*LOGO Y TiTULO*/
+.logoTituloNav {
+  background-color: #d3ab9e;
+  width: 100%;
+}
+.logoTitulo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.contenedorDeTituloCompleto {
+  margin-left: 5px;
+}
+.titulo {
+  font-size: 6vw;
+  font-family: "Dancing Script", cursive;
+  display: table-cell;
+  vertical-align: bottom;
+}
+.logo {
+  max-width: 100%;
+  height: 15vw;
+}
+.navBar {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: center;
+  background-color: #eac9c1;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+.navBar li {
+  padding-right: 2vw;
+  padding-left: 2vw;
+  list-style: none;
+}
+.navBar li:hover {
+  background-color: #d3ab9e;
+}
+
+#cambiarModo {
+  margin-top: 0%;
+  position: absolute;
+  right: 0;
+  bottom: 1;
+  font-size: 0.8em;
+  font-family: "Playfair Display", serif;
+  background-color: transparent;
+  border: none;
+}
+#cambiarModo:hover {
+  background-color: #eac9c1;
+}
+.textoNav {
+  font-size: 5vw;
+  font-family: "Dancing Script", cursive;
+  text-decoration: none;
+  color: black;
+}
+
+/************************************** Destacados *****************************************/
+.light {
+  background-color: #ebd8d0;
+  padding: 3vw;
+}
+.seccion {
+  background-color: #eac9c1;
+  padding: 2vw;
+  margin: 2vw;
+}
+#tresImagenes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 200px;
+}
+#fondoDeImagen1 {
+  background-image: url("https://i.pinimg.com/564x/1b/1c/fa/1b1cfa0321072652c5a44a23f6ca4611.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  margin: 2vw;
+}
+#fondoDeImagen2 {
+  background-image: url("https://i.pinimg.com/236x/e4/07/89/e4078908ab719d7e821a898a70da12fd.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  margin: 2vw;
+}
+#fondoDeImagen3 {
+  background-image: url("https://i.pinimg.com/564x/f2/e3/a9/f2e3a950bb7168a24082c48574d55009.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  background-color: black;
+  margin: 2vw;
+  grid-column-start: span 2;
+}
+
+/************************************** SECTION MAS PLATOS***********************************************/
+.masPlatos {
+  background-color: #eac9c1;
+  padding: 2vw;
+  margin: 8vw;
+}
+.contenedorDeTituloDeSeccion {
+  text-align: center;
+  background-color: #d3ab9e;
+}
+.tituloDeSeccion {
+  font-size: 6vw;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 0;
+}
+
+.contenedorMayor {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 200px;
+  grid-gap: 10px;
+  padding: 2vw;
+  margin: 0px 2vw;
+  border-radius: 2%;
+}
+.divDeImagenes:nth-child(1) {
+  background-image: url("https://harbour60.com/wp-content/uploads/2017/12/Harbour60_171016_0636-scaled.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  margin: 2vw;
+  grid-column-start: span 2;
+}
+.divDeImagenes:nth-child(2) {
+  background-image: url("https://harbour60.com/wp-content/uploads/2017/12/Harbour60_1126-scaled.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  margin: 2vw;
+}
+.divDeImagenes:nth-child(3) {
+  background-image: url("https://harbour60.com/wp-content/uploads/2017/12/Harbour60_171016_0670_V2_f-scaled.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  margin: 2vw;
+}
+.divDeImagenes:nth-child(4) {
+  background-image: url("https://harbour60.com/wp-content/uploads/2017/12/Harbour60_171016_0793_f-scaled.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  margin: 2vw;
+}
+.divDeImagenes:nth-child(5) {
+  background-image: url("https://harbour60.com/wp-content/uploads/2017/12/Harbour60_171016_0756-scaled.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  margin: 2vw;
+}
+
+.divDeImagenes:nth-child(6) {
+  background-image: url("https://harbour60.com/wp-content/uploads/2017/12/Harbour60_171016_0318_f-scaled.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  margin: 2vw;
+  grid-column-start: span 2;
+  grid-row-start: span 2;
+}
+.divDeImagenes:nth-child(7) {
+  background-image: url("https://harbour60.com/wp-content/uploads/2017/12/Harbour60_171016_0721_3_f-scaled.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  margin: 2vw;
+}
+.divDeImagenes:nth-child(8) {
+  background-image: url("https://harbour60.com/wp-content/uploads/2017/12/Harbour60_171016_0997-scaled.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  margin: 2vw;
+}
+.divDeImagenes:nth-child(9) {
+  background-image: url("https://harbour60.com/wp-content/uploads/2017/12/Harbour60_171016_0976-scaled.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  margin: 2vw;
+  grid-column-start: span 2;
+}
+/************************************** PLATO CON MEJOR CRITICA *****************************************/
+.imagenDeCritica1 {
+  background-image: url("https://imagenes.elpais.com/resizer/JUi9z1YrFhAP-ZdXgUYVV8rj9sU=/414x311/filters:focal(3070x1600:3080x1610)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/CRMXWWPBSFBLVDA2V3O44GBMEI.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 3vw;
+  max-width: 100%;
+  height: 50vw;
+}
+.imagenDeCritica2 {
+  background-image: url("https://imagenes.elpais.com/resizer/ye1sXNSA9Xj3J1xKXkoVjC56DDM=/414x311/cloudfront-eu-central-1.images.arcpublishing.com/prisa/CQOSCGGDHBE77KA7UE2EWLNZ3M.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 3vw;
+  max-width: 100%;
+  height: 50vw;
+}
+.descripcion {
+  text-align: center;
+}
+.descripcionCritica {
+  font-size: 4vw;
+  font-family: "Cormorant Garamond", serif;
+  color: aliceblue;
+}
+#articulo1 {
+  padding: 2vw;
+  text-align: center;
+  margin: 0px 2vw;
+}
+#articulo2 {
+  padding: 2vw;
+  margin: 0px 2vw;
+  border-top: solid black 1px;
+  text-align: center;
+}
+.tituloDeDescripcion {
+  font-size: 4vw;
+  font-family: "Playfair Display", serif;
+  padding-top: 2vw;
+}
+
+/***************************************FOOTER************************************/
+.footerCompleto {
+  text-align: center;
+  background-color: #d3ab9e;
+  margin-bottom: 0;
+}
+
+.imagenDeFooter {
+  background-image: url("Mapa con punto de ubicación de destino _ Vector Premium.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50vw;
+  max-width: 100%;
+  margin: 3vw;
+}
+
+/*******************************************************PARA TABLET***********************************************/
+@media only screen and (min-width: 768px) {
+  /*NAV*/
+  .titulo {
+    font-size: 3vw;
+  }
+  .logo {
+    height: 7vw;
+  }
+  .textoNav {
+    font-size: 2.5vw;
+  }
+  .tituloDeSeccion {
+    font-size: 3vw;
+  }
+  /*DESTACADO*/
+  #tresImagenes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 350px;
+  }
+  #fondoDeImagen3 {
+    grid-column-start: span 1;
+  }
+  .contenedorMayor {
+    grid-auto-rows: 350px;
+  }
+
+  /*MASPLATOS*/
+  /*CRITICAS*/
+  #articulo1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 250px;
+    grid-gap: 10px;
+  }
+  #articulo2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 250px;
+    grid-gap: 10px;
+  }
+  .imagenDeCritica1 {
+    width: 100%;
+    height: 20vw;
+  }
+  .imagenDeCritica2 {
+    width: 100%;
+    height: 20vw;
+  }
+  .tituloDeDescripcion {
+    font-size: 2vw;
+  }
+  .descripcionCritica {
+    font-size: 1.8vw;
+  }
+  /*FOOTER*/
+  .imagenTextoFooter {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 250px;
+    grid-gap: 10px;
+    padding-bottom: 100px;
+  }
+  .imagenDeFooter {
+    height: 25vw;
+  }
+}
+/**************************************************PARA COMPUTADORAS**************************************************/
+@media only screen and (min-width: 1024px) {
+  .imagenTextoFooter {
+    padding-bottom: 200px;
+  }
+  #articulo1 {
+    margin: 3vw;
+  }
+}
+

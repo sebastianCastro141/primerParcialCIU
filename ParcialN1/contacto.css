@@ -1,0 +1,26 @@
+.form{
+    padding: 3vw;
+    text-align: start;
+    background-color: #a86f5c;
+    margin: 3vw 0px;
+    border: solid black 1px;  
+}
+#contendorForm{
+    text-align: center;
+    background-color: #eac9c1;
+    padding: 3vw;
+}
+#titulo{
+    background-color: #a86f5c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    border: solid black 1px;  
+}
+
+@media only screen and (min-width: 768px) {
+    #contendorForm{
+        padding:3vw 20vw;
+    }
+}

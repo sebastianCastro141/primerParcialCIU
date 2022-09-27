@@ -1,0 +1,131 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+button {
+  border: none;
+  background-color: transparent;
+}
+span {
+  color: bisque;
+  font-family: "Playfair Display", serif;
+}
+button:hover {
+  background-color: burlywood;
+}
+.noVisible {
+  display: none;
+}
+
+#menuInteractivo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 150px;
+  grid-gap: 10px;
+  padding: 6vw 0px;
+}
+
+#menuDespensa {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://i.pinimg.com/564x/5b/ce/90/5bce9017cc10547022b479d9ea1808c8.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 150px;
+  max-width: 100%;
+  border: solid #d3ab9e 3px;
+  grid-column-start: span 2;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#menuEjecutivo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://i.pinimg.com/564x/25/c9/64/25c9648cea38cf337a0baec9722630d3.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 150px;
+  max-width: 100%;
+  border: solid #d3ab9e 3px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#vinos {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://i.pinimg.com/564x/f3/9f/36/f39f36520de012d0ad9408513909e23b.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 150px;
+  max-width: 100%;
+  border: solid #d3ab9e 3px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.siVisible{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    padding: 6vw;
+    background-color:#ebd8d0 ;
+    margin-bottom: 2vw;
+}
+.contenedorTituloSec{
+    background-color: #d3ab9e;
+    margin-bottom: 2vw;
+    border-bottom: solid black 1px;
+}
+.tituloSec{
+    color: black;
+    background-color: #d3ab9e;
+}
+.seccionDeMenu{
+    text-align: center;
+    padding: 2vw;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+    #menuInteractivo{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 300px;
+        grid-gap: 10px;
+        padding: 6vw 0px;
+    }
+    #menuDespensa{
+        grid-column-start: span 1;
+        height: 300px;
+    }
+    #menuEjecutivo{
+        height: 300px;
+    }
+    #vinos{
+        height: 300px;
+    }
+    .siVisible{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin:2vw 5vw;
+    }
+    .seccionDeMenu:nth-child(1){
+        grid-column-start: span 2;
+    }
+}
